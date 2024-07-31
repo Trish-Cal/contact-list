@@ -1,6 +1,4 @@
-import React from 'react'
-
-function ContactRow( contact, setSelectedContactId) {
+function ContactRow({ contact, setSelectedContactId }) {
   return (
    <tr onClick={() => setSelectedContactId}>
      <td>{contact?.name}</td>
